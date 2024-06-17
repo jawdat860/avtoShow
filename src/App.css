@@ -1,0 +1,53 @@
+.gradient-text {
+  background: linear-gradient(to bottom, #F9F7E5 0%, #FDECA7 28%, #E36421 85%, #DC2C0C 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+  background-clip: text;
+}/* Keyframes for slide down and up animations */
+@keyframes slideDown {
+  0% {
+      max-height: 0;
+      opacity: 0;
+  }
+  100% {
+      max-height: 300px;
+      opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  0% {
+      max-height: 300px;
+      opacity: 1;
+  }
+  100% {
+      max-height: 0;
+      opacity: 0;
+  }
+}
+
+/* Animation classes */
+.slide-down {
+  animation: slideDown 0.3s ease forwards;
+}
+
+
+.slide-up {
+  animation: slideUp 0.3s ease forwards;
+}
+/* Add this to your CSS file or a <style> tag */
+@keyframes move-right {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animate-move-right {
+  animation: move-right 2s infinite;
+}
