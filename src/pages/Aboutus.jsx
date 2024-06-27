@@ -60,9 +60,11 @@ function Aboutus() {
           </li>
         </ul>
         <div className="mt-[30px] text-center lg:text-left">
-          <button className="bg-[#E04716] py-[10px] px-[15px] rounded-md hover:bg-[#FF3F01]">
-            <i className="fa-solid fa-headphones"></i> Contact us
-          </button>
+          <a href="tel:+79789990088">
+            <button className="bg-[#E04716] py-[10px] px-[15px] rounded-md hover:bg-[#FF3F01]">
+              <i className="fa-solid fa-headphones"></i> Contact us
+            </button>
+          </a>
         </div>
       </div>
       {/* the second section */}

@@ -13,9 +13,19 @@ function HeaderHome() {
     <div>
       <div className="bg-black flex flex-row text-[#FBF6E8] justify-between items-center py-2.5 px-5 md:px-20 border-b border-[#E25A1D] relative">
         <div className="flex items-center p-2.5">
-          <i className="fa-solid fa-phone text-2xl hover:cursor-pointer hover:text-[#E25A1D] transition-all duration-300"></i>
+          <a
+            href="tel:+79789990088"
+            className="hover:text-[#E25A1D] transition-all duration-300"
+          >
+            <i className="fa-solid fa-phone text-2xl hover:cursor-pointer"></i>
+          </a>
           <span className="hidden lg:inline text-lg hover:cursor-pointer ml-1 font-bold hover:text-[#E25A1D] transition-all duration-300">
-            +7 (978) 99-90-088
+            <a
+              href="tel:+79789990088"
+              className="hidden lg:inline text-lg hover:cursor-pointer ml-1 font-bold hover:text-[#E25A1D] transition-all duration-300"
+            >
+              +7 (978) 99-90-088
+            </a>
           </span>
         </div>
         <img
@@ -24,7 +34,13 @@ function HeaderHome() {
           className="hover:cursor-pointer w-[100px] md:w-[150px] mx-auto"
         />
         <p className="text-sm md:text-lg hover:cursor-pointer font-bold p-2.5 text-center md:text-left max-w-[200px] hidden lg:inline hover:text-[#E25A1D] transition-all duration-300">
-          Севастополь, ул.Стахановцев,3
+          <a
+            href="https://yandex.com/maps/?text=Севастополь, ул.Стахановцев,3"
+            target="_blank"
+            className="text-sm md:text-lg hover:cursor-pointer font-bold p-2.5 text-center md:text-left max-w-[200px] hidden lg:inline hover:text-[#E25A1D] transition-all duration-300"
+          >
+            Севастополь, ул.Стахановцев,3
+          </a>
         </p>
         <div className="w-[24px] inline lg:hidden">
           <i

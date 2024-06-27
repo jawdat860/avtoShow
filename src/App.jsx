@@ -7,6 +7,7 @@ import Services from "./pages/Services";
 import Contactus from "./pages/Contact";
 import User from "./pages/User";
 import Footer from "./pages/Footer";
+import MapPage  from "./pages/MapPage ";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Aboutus />
       <Services />
       <Contactus />
+      <MapPage />
       <User />
       <Footer />
     </div>
