@@ -8,6 +8,8 @@ import Contactus from "./pages/Contact";
 import User from "./pages/User";
 import Footer from "./pages/Footer";
 import MapPage  from "./pages/MapPage ";
+import To from "./pages/To";
+import OurTeam from "./pages/OurTeam";
 
 const App = () => {
   return (
@@ -17,8 +19,10 @@ const App = () => {
       <Aboutus />
       <Services />
       <Contactus />
+      <To />
       <MapPage />
       <User />
+      <OurTeam />
       <Footer />
     </div>
   );
